@@ -1,0 +1,46 @@
+{
+  "source": "World Bank, World Development Indicators (API v2)",
+  "api": "https://api.worldbank.org/v2/",
+  "license": "CC BY 4.0 — https://datacatalog.worldbank.org/public-licenses",
+  "downloaded_utc": "2026-11-10T08:54:12Z",
+  "wdi_last_updated": {
+    "SP.DYN.LE00.IN": "2026-10-08",
+    "NY.GDP.PCAP.KD": "2026-10-08",
+    "NY.GDP.MKTP.KD.ZG": "2026-10-08",
+    "SP.POP.TOTL": "2026-10-08",
+    "SP.URB.TOTL.IN.ZS": "2026-10-08",
+    "SP.DYN.TFRT.IN": "2026-10-08",
+    "SH.DYN.MORT": "2026-10-08",
+    "EG.ELC.ACCS.ZS": "2026-10-08",
+    "IT.NET.USER.ZS": "2026-10-08",
+    "IT.CEL.SETS.P2": "2026-10-08",
+    "SH.H2O.BASW.ZS": "2026-10-08",
+    "SE.PRM.CMPT.ZS": "2026-10-08"
+  },
+  "years": [
+    1990,
+    2024
+  ],
+  "countries": {
+    "BEN": "Bénin",
+    "BFA": "Burkina Faso",
+    "CPV": "Cabo Verde",
+    "CIV": "Côte d'Ivoire",
+    "GMB": "Gambie",
+    "GHA": "Ghana",
+    "GIN": "Guinée",
+    "GNB": "Guinée-Bissau",
+    "LBR": "Libéria",
+    "MLI": "Mali",
+    "MRT": "Mauritanie",
+    "NER": "Niger",
+    "NGA": "Nigeria",
+    "SEN": "Sénégal",
+    "SLE": "Sierra Leone",
+    "TGO": "Togo"
+  },
+  "aggregates": {
+    "SSF": "Afrique subsaharienne",
+    "WLD": "Monde"
+  }
+}
