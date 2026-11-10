@@ -1,0 +1,4 @@
+modele,MAE,RMSE,R2
+Référence : moyenne des autres pays (même année),4.1916,5.4889,0.1234
+Régression ridge,4.2204,5.4318,0.1415
+Forêt aléatoire,4.5716,6.2452,-0.1348

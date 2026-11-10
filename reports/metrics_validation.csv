@@ -1,0 +1,6 @@
+modele,MAE,RMSE,R2
+Référence : dernière valeur connue,0.9310,1.1360,0.9480
+Référence : tendance par pays,0.6505,0.8187,0.9730
+Régression ridge,3.2745,4.2790,0.2625
+Forêt aléatoire,2.2480,3.0799,0.6179
+Tendance par pays + correction ridge,0.6263,0.7966,0.9744
