@@ -1,0 +1,6 @@
+,MAE_benin
+Référence : dernière valeur connue,0.8545
+Référence : tendance par pays,0.1627
+Régression ridge,1.7924
+Forêt aléatoire,1.5141
+Tendance par pays + correction ridge,0.2124

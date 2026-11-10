@@ -1,0 +1,7 @@
+variable,coef_correction_standardise,importance_permutation_mae
+Internet,-0.0328,0.0143
+Accès à l'électricité,-0.0155,0.0024
+Fécondité,0.0118,-0.0005
+Population urbaine,-0.0093,-0.0005
+Eau potable de base,0.0236,-0.0018
+log(PIB par habitant),0.0399,-0.0022

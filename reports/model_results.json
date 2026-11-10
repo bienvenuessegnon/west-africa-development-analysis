@@ -1,0 +1,128 @@
+{
+  "benin_temporal_mae": {
+    "Référence : dernière valeur connue": 0.8544999999999989,
+    "Référence : tendance par pays": 0.16267401960785488,
+    "Régression ridge": 1.7924464847962422,
+    "Forêt aléatoire": 1.5140796122523064,
+    "Tendance par pays + correction ridge": 0.21241907847580865
+  },
+  "n_rows": 391,
+  "n_train": 263,
+  "n_test": 128,
+  "validation": [
+    {
+      "modele": "Référence : dernière valeur connue",
+      "MAE": 0.9310468749999995,
+      "RMSE": 1.1359598845799965,
+      "R2": 0.9480248951559465
+    },
+    {
+      "modele": "Référence : tendance par pays",
+      "MAE": 0.6504923930236423,
+      "RMSE": 0.8186804449440602,
+      "R2": 0.9730040746792512
+    },
+    {
+      "modele": "Régression ridge",
+      "MAE": 3.274455312213922,
+      "RMSE": 4.278960563808516,
+      "R2": 0.2625272932864622
+    },
+    {
+      "modele": "Forêt aléatoire",
+      "MAE": 2.247955058444458,
+      "RMSE": 3.079946536195561,
+      "R2": 0.6179187378036886
+    },
+    {
+      "modele": "Tendance par pays + correction ridge",
+      "MAE": 0.6263215346731701,
+      "RMSE": 0.7965561201211887,
+      "R2": 0.974443454956829
+    }
+  ],
+  "temporal": [
+    {
+      "modele": "Référence : dernière valeur connue",
+      "MAE": 1.3674296875000003,
+      "RMSE": 1.6965727608365346,
+      "R2": 0.8717437184189603
+    },
+    {
+      "modele": "Référence : tendance par pays",
+      "MAE": 1.0433421799401834,
+      "RMSE": 1.3981893462196835,
+      "R2": 0.9128904757208737
+    },
+    {
+      "modele": "Régression ridge",
+      "MAE": 3.700092817753718,
+      "RMSE": 4.394137431444297,
+      "R2": 0.13963856269114994
+    },
+    {
+      "modele": "Forêt aléatoire",
+      "MAE": 2.565026767919944,
+      "RMSE": 3.420831367561855,
+      "R2": 0.47856882078785734
+    },
+    {
+      "modele": "Tendance par pays + correction ridge",
+      "MAE": 0.9931192080077811,
+      "RMSE": 1.3418433957656688,
+      "R2": 0.9197699004983181
+    }
+  ],
+  "country_holdout": [
+    {
+      "modele": "Référence : moyenne des autres pays (même année)",
+      "MAE": 4.19159901632894,
+      "RMSE": 5.488887063867951,
+      "R2": 0.12340638281275851
+    },
+    {
+      "modele": "Régression ridge",
+      "MAE": 4.220390321749406,
+      "RMSE": 5.431848438964484,
+      "R2": 0.14153024075984888
+    },
+    {
+      "modele": "Forêt aléatoire",
+      "MAE": 4.5716231451530245,
+      "RMSE": 6.245172129233031,
+      "R2": -0.13479794240212395
+    }
+  ],
+  "importance": [
+    {
+      "variable": "Internet",
+      "coef_correction_standardise": -0.032792683033986136,
+      "importance_permutation_mae": 0.014274939885300356
+    },
+    {
+      "variable": "Accès à l'électricité",
+      "coef_correction_standardise": -0.015524919527804052,
+      "importance_permutation_mae": 0.0023661586826335236
+    },
+    {
+      "variable": "Fécondité",
+      "coef_correction_standardise": 0.011831316485919926,
+      "importance_permutation_mae": -0.0004952852080039963
+    },
+    {
+      "variable": "Population urbaine",
+      "coef_correction_standardise": -0.009290843056659682,
+      "importance_permutation_mae": -0.000527238381799966
+    },
+    {
+      "variable": "Eau potable de base",
+      "coef_correction_standardise": 0.023586378514369125,
+      "importance_permutation_mae": -0.0018350910740757638
+    },
+    {
+      "variable": "log(PIB par habitant)",
+      "coef_correction_standardise": 0.039886893471267976,
+      "importance_permutation_mae": -0.0022393740485441736
+    }
+  ]
+}
