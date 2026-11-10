@@ -1,0 +1,157 @@
+{
+  "reference_year": 2024,
+  "indicators": {
+    "life_expectancy": {
+      "benin": 60.961,
+      "benin_rank_of_16": 13,
+      "west_africa_median": 62.217,
+      "ssf": 62.8036817702073,
+      "max": [
+        "Cabo Verde",
+        76.224
+      ],
+      "min": [
+        "Nigeria",
+        54.635
+      ],
+      "benin_2000": 56.594
+    },
+    "gdp_pc": {
+      "benin": 1324.78312597434,
+      "benin_rank_of_16": 7,
+      "west_africa_median": 1095.55329706414,
+      "ssf": 1588.93961326571,
+      "max": [
+        "Cabo Verde",
+        4438.38741931171
+      ],
+      "min": [
+        "Niger",
+        589.085643279512
+      ],
+      "benin_2000": 861.213292013209
+    },
+    "electricity": {
+      "benin": 59.0,
+      "benin_rank_of_16": 8,
+      "west_africa_median": 56.4,
+      "ssf": 55.1103542559,
+      "max": [
+        "Cabo Verde",
+        98.4
+      ],
+      "min": [
+        "Niger",
+        21.3
+      ],
+      "benin_2000": 21.5
+    },
+    "internet": {
+      "benin": 33.98379898,
+      "benin_rank_of_16": 10,
+      "west_africa_median": 38.14234924,
+      "ssf": 33.6,
+      "max": [
+        "Cabo Verde",
+        74.73519897
+      ],
+      "min": [
+        "Niger",
+        15.55760002
+      ],
+      "benin_2000": 0.225247851473369
+    },
+    "fertility": {
+      "benin": 4.48,
+      "benin_rank_of_16": 4,
+      "west_africa_median": 4.1158365,
+      "ssf": 4.26419372272935,
+      "max": [
+        "Niger",
+        5.935
+      ],
+      "min": [
+        "Cabo Verde",
+        1.511
+      ],
+      "benin_2000": 5.937
+    },
+    "under5_mortality": {
+      "benin": 74.7,
+      "benin_rank_of_16": 7,
+      "west_africa_median": 70.15,
+      "ssf": 71.2,
+      "max": [
+        "Nigeria",
+        115.6
+      ],
+      "min": [
+        "Cabo Verde",
+        11.1
+      ],
+      "benin_2000": 135.0
+    },
+    "urban_pct": {
+      "benin": 52.5455354818423,
+      "benin_rank_of_16": 9,
+      "west_africa_median": 53.25942343792825,
+      "ssf": 44.1495101463121,
+      "max": [
+        "Cabo Verde",
+        76.7721471004354
+      ],
+      "min": [
+        "Niger",
+        18.0497398450803
+      ],
+      "benin_2000": 38.2759517258875
+    },
+    "water": {
+      "benin": 69.5868397867067,
+      "benin_rank_of_16": 11,
+      "west_africa_median": 77.26585425988745,
+      "ssf": 67.5357898711901,
+      "max": [
+        "Cabo Verde",
+        92.2800892661912
+      ],
+      "min": [
+        "Burkina Faso",
+        49.9986600107497
+      ],
+      "benin_2000": 61.053428974703
+    }
+  },
+  "benin_gdp_pc_cagr_2000_last": 1.8106208889272501,
+  "benin_population": {
+    "2000": 7221619.0,
+    "2024": 14462724.0
+  },
+  "life_expectancy_gain_2000_last": {
+    "benin": 4.366999999999997,
+    "median": 9.614,
+    "max": [
+      "Sierra Leone",
+      17.129999999999995
+    ],
+    "min": [
+      "Bénin",
+      4.366999999999997
+    ]
+  },
+  "electricity_gain_2000_last": {
+    "benin": 37.5,
+    "median": 36.1,
+    "n_countries": 14
+  },
+  "spearman_with_life_expectancy": {
+    "under5_mortality": -0.956,
+    "fertility": -0.777,
+    "gdp_pc": 0.418,
+    "electricity": 0.562,
+    "urban_pct": 0.573,
+    "water": 0.596,
+    "internet": 0.733
+  },
+  "n_country_years_corr": 391
+}
