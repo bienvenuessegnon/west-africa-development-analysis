@@ -15,3 +15,7 @@ data/external/
 .DS_Store
 .vscode/
 .idea/
+
+.env
+.env.*
+!.env.example

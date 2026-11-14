@@ -8,6 +8,8 @@ Analyse exploratoire et modélisation du développement du **Bénin** et de ses 
 à partir des *World Development Indicators* de la Banque mondiale : santé, revenu, électricité, Internet, eau,
 démographie. Projet Python reproductible (pandas, matplotlib, scikit-learn), avec tests et intégration continue.
 
+*Exploratory analysis and life-expectancy modelling for Benin and 15 West African neighbours, using World Bank World Development Indicators (1990–2024).*
+
 ## Contexte
 
 On entend souvent que « l'Afrique de l'Ouest progresse », mais à quel rythme, et où se situe réellement le Bénin
@@ -168,8 +170,7 @@ python -m pytest -q              # tests
 
 ## Auteur
 
-**K. O. Bienvenu ESSEGNON** — AI Engineer Aspiring & Mathématicien
-[GitHub](https://github.com/bienvenuessegnon) · [LinkedIn](https://www.linkedin.com/in/bienvenuessegnon)
+[Bienvenu ESSEGNON](https://github.com/bienvenuessegnon) · [LinkedIn](https://www.linkedin.com/in/bienvenuessegnon)
 
 Code sous licence MIT. Données : Banque mondiale, World Development Indicators, CC BY 4.0. Ce projet n'est ni affilié
 ni approuvé par la Banque mondiale.
